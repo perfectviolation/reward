@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #007bff, #00bfff);
+            color: #fff;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-window {
+            background-color: #26273b;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 90%;
+            max-width: 450px;
+        }
+
+        .input-label {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #1f1f34;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #2962ff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0039cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-window">
+            <div class="input-label">Username:</div>
+            <input type="text" name="username" placeholder="">
+            <div class="input-label">Password:</div>
+            <input type="password" name="password" placeholder="">
+            <input type="submit" value="">
+        </div>
+    </div>
+</body>
+</html>
